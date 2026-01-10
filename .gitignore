@@ -1,0 +1,12 @@
+# Ignore the 500MB+ virtual environment
+venv/
+.venv/
+
+# Ignore large model files (they belong in Cloud Storage, not Git)
+*.hdf5
+*.h5
+
+# Ignore local config and temporary files
+__pycache__/
+*.pyc
+.Dockerfile
